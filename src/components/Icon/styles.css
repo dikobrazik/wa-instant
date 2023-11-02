@@ -1,0 +1,10 @@
+svg.icon.size-m {
+    width: 20px;
+    height: 20px;   
+}
+
+@media (prefers-color-scheme: light) {
+    svg * {
+        stroke: #000;
+    }
+}
