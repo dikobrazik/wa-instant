@@ -4,5 +4,5 @@ import svgr from "@honkhonk/vite-plugin-svgr/dist";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [preact(), svgr()],
+  plugins: [preact(), svgr.default()],
 });
